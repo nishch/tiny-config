@@ -1,0 +1,16 @@
+{
+  "name": "tiny-config",
+  "version": "1.0.0",
+  "description": "a very small config module for node",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nishant",
+  "license": "ISC",
+  "keywords": [
+    "config",
+    "node config",
+    "settings"
+  ]
+}
