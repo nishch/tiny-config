@@ -29,7 +29,7 @@ and `dev.json` is:
 
 ```json
 {
-    "profile: {
+    "profile": {
         "age": 48,
         "email": "123@somewhere.com"
     },
