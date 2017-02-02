@@ -50,6 +50,9 @@ var email = config.get('profile.email');
 
 var conStr = config.get('connectionString');
 //efg
+
+var all = config.getAll()
+//Will return all the settings 
 ```
 
 

@@ -12,5 +12,13 @@
     "config",
     "node config",
     "settings"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishant-chaturvedi/tiny-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nishant-chaturvedi/tiny-config/issues"
+  },
+  "homepage": "https://github.com/nishant-chaturvedi/tiny-config#readme"
 }
