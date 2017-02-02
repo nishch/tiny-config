@@ -11,7 +11,8 @@
   "keywords": [
     "config",
     "node config",
-    "settings"
+    "settings",
+    "properties"
   ],
   "repository": {
     "type": "git",
