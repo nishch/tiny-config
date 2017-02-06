@@ -1,6 +1,6 @@
 {
   "name": "tiny-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a very small config module for node",
   "main": "lib/index.js",
   "scripts": {
