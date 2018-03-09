@@ -18,7 +18,8 @@ It tries to follow a very simple and intuitive convention so that you don't have
 
 ## Example Setup
 
-If you have following files in you config directory:
+If you have following files in you configuration directory (i.e. either `config` or whatever path you have set in `NODE_CONFIG_PATH`):
+
 ```.
 ├── default.json
 ├── development.json
