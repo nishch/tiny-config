@@ -1,0 +1,13 @@
+{
+    "connectionString": "prod_connection_string",
+    "serviceConfig": {
+        "retryConfig": {
+            "maxAttempts": 5
+        }
+    },
+    "logLevel": "error",
+    "errors": {
+        "enableStackTrace": true
+    },
+    "version": "1.2.0"
+}
