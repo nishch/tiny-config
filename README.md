@@ -73,7 +73,7 @@ and `production.json` is:
 considering you have set `NODE_ENV` to `production`, you can access the setting as follows:
 
 ```javascript
-var config = require('config');
+var config = require('tiny-config');
 
 var connectionString = config.get('connectionString');
 //"prod_connection_string"
