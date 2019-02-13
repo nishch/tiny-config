@@ -1,6 +1,6 @@
 # What is this?
 
-This package helps you setup `configuration` for your `node.js` applications. It enables you to have different configuration for different environments i.e. for local, development, staging, production etc. As it's name suggests, it's very tiny with no external dependencies and under 100 lines of code.
+This package helps you setup hierarchical `configuration` for your `node.js` applications. It enables you to have different configuration for different environments i.e. for local, development, staging, production etc. As it's name suggests, it's very tiny with no external dependencies and under 100 lines of code.
 
 # How does it work?
 
@@ -12,7 +12,7 @@ It tries to follow a very simple and intuitive convention so that you don't have
 
 3. Sometimes the only reason you want to have a configuration system is to externalize values from your code, in this case all you need is to create a file named `default.json` in the config directory (as mentioned in #1) and put all the config settings in that file.
 
-4. In cases where you want to override some of the config settings present in `default.json` or want to add some more settings based on the deployment environment, you need to create additional files in the config directory and name it whatever value you are going to set for `NODE_ENV` environment variable. For example if your deployment environment is `stating` then create `staging.json` under config directory.
+4. In cases where you want to override some of the config settings present in `default.json` or want to add some more settings based on the deployment environment, you need to create additional files in the config directory and set the name of the file to `NODE_ENV` environment variable. For example if your deployment environment is `staging` then create `staging.json` under config directory.
 
 5. You can override settings using env variable, for example if you have `process.env.connectionString` set, then it takes precedence and will be the effective value, overriding the value set in the config files.
 
