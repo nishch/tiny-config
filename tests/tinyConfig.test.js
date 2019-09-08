@@ -37,5 +37,14 @@ describe("tiny-config", function () {
             process.env.version = "1.0.0"
             expect(config.get("version")).equals("1.0.0");
         });
+
+        it("handles array values correctly", function () {
+            const res = config.get("nestedArrayValue");
+            const output = [
+                "value1",
+                "value2"
+            ];
+            expect(res).to.deep.equal(output);
+        });
     });
 });

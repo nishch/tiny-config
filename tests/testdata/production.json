@@ -9,5 +9,9 @@
     "errors": {
         "enableStackTrace": true
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "nestedArrayValue": [
+        "value1",
+        "value2"
+    ]
 }
